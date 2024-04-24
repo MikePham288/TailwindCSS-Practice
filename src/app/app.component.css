@@ -1,0 +1,8 @@
+body{
+  @apply m-32;
+  background-color: theme(backgroundColor.red.700);
+}
+
+button{
+    @apply bg-primary px-2 text-white shadow-2xl;
+}
