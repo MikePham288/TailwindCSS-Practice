@@ -14,3 +14,7 @@
     @apply px-2 py-1 border-2;
   }
 }
+
+div > * + * {
+  @apply space-x-1
+}
