@@ -8,3 +8,9 @@
     @apply bg-primary px-2 text-white shadow-2xl;
   }
 } */
+
+@layer components {
+  .btn{
+    @apply px-2 py-1 border-2;
+  }
+}

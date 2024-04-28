@@ -1,6 +1,6 @@
-body{
-  @apply m-32;
-  background-color: theme(backgroundColor.red.700);
+
+body {
+  @apply bg-slate-50 mt-10;
 }
 
 button{
