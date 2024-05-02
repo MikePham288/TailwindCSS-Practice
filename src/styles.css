@@ -18,3 +18,19 @@
 div > * + * {
   @apply space-x-1
 }
+
+@layer base {
+  button {
+    @apply border-2 rounded-md border-current text-purple-700 px-2 py-1 disabled:opacity-50;
+  }
+}
+
+@layer components {
+  .btn-dangerous{
+    @apply text-red-600;
+  }
+
+  .btn-primary{
+    @apply bg-purple-100;
+  }
+}
